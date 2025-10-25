@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* supaya kolom link (pak bejo dan taliwang) g ada underline */
+    text-decoration: none; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: #f0f0f0   ;
+    padding: 15px;
+    max-width: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.judul{
+    text-align: center;
+    font-size: 24px;
+}
+
+.gambar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gambar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.deskripsi{
+    text-align:justify
+}
+
+.makanan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.makanan table{
+    padding: 2px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+.makanan th, .makanan td{
+    padding: 10px;
+    /* border: 0.5px solid black; */
+}
+
+.makanan th{
+    background-color: #d3d3d3;
+}
+
+.makanan tr a{
+    color:rgb(2, 163, 104)
+}
+
+.makanan tr a:hover{
+    font-weight: bold;
+}
